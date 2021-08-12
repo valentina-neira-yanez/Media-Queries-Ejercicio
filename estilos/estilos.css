@@ -1,0 +1,49 @@
+html{
+    width: 100%;
+    height: 100%;
+    font-size: var (--fuente);
+}
+
+.titulo{
+    text-transform:uppercase;
+    text-align: center;
+}
+
+.parrafo{
+    text-align: center;
+}
+
+@media(max-width:400px){
+    .titulo{
+        text-align: left;
+        color: red;
+    }
+     }
+    .parrafo{
+        text-align: left;
+        color: gray;
+    } 
+
+@media(min-width:900px){
+    .titulo{
+        text-align: right;
+        color: blue;
+    }
+    .parrafo{
+        text-align: right;
+        color: yellow;
+
+ }
+
+ }
+ @media(min-width:401px) and (max-width:899px){
+    .titulo{
+        text-align: center;
+        color: pink;
+    }
+    .parrafo{
+        text-align: center;
+        color: green;
+ }
+ }
+ 
